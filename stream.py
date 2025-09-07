@@ -58,7 +58,7 @@ st.markdown("""
 
 # --- Sidebar ---
 st.sidebar.markdown("## ⚙️ Configuration API")
-api_url = st.sidebar.text_input("URL de votre API FastAPI", "http://127.0.0.1:8000/predict_file")
+api_url = st.sidebar.text_input("URL de votre API FastAPI", "https://exam-ml-2.onrender.com/docs#/default/predict_file/")
 
 st.sidebar.markdown("## 🔗 Test API")
 if st.sidebar.button("Tester la connexion"):
@@ -170,3 +170,4 @@ else:
 # Footer
 st.markdown("---")
 st.markdown("💶 Détecteur de Faux Billets - Powered by Streamlit & FastAPI")
+
